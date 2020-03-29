@@ -42,3 +42,10 @@
 // // console.log(arr);     
 
 
+
+const becomeJavaScriptMaster = (name = "Igor") => {
+    if (name === "Igor" )
+    return "Приветствую, мастер!";
+}
+
+console.log(becomeJavaScriptMaster("Igor"));
