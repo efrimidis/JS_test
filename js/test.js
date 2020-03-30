@@ -137,10 +137,40 @@
 //     send(result);
 // }   
 
-let user = {
-  'name': Bobby,
-  'surname': Muller
-};
+let num = 50;
+while (num < 55) {
+  console.log(num);
+  num++;
+}
 
-alert(user.name);
+if (num < 50) {
+console.log('Too small');
+} else if (num > 100) {
+  console.log('Too much');
+} else {
+  console.log('Ok');
+}
 
+(num === 50) ? console.log('Ok') : console.log('Too small');
+
+
+switch (num) {
+  case num < 50:
+    conole.log('Too small');
+    break;
+  case num > 100:
+    console.log('Too much');
+    break;
+  case 50:
+    console.log('Ok');
+    break;
+  default: 
+  console.log('Ups...');   
+}
+
+for (let i = 5; i < 50; i++) {
+  if (i % 3) {
+    continue;
+  }
+  console.log(i);
+}

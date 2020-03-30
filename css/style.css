@@ -261,3 +261,31 @@ footer {
 .letter {
     display: inline-block;
 }
+
+.wrapper_test {
+  display: flex;
+  width: 1200px;
+  background-color: tomato;
+
+}
+
+.wrapper_test-content {
+  display: flex;
+  margin: 3rem;
+  padding: 3rem;
+  background-color: gold;
+}
+
+.button {
+  position: relative;
+  width: ;
+  height: 40px;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.button a {
+color: #fff;
+text-transform: uppercase;
+text-decoration: none;
+}
